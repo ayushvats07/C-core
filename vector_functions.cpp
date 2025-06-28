@@ -44,6 +44,11 @@ int main() {
     // 6. at() and [] - accessing element at index 2
     cout << "Element at index 2 using at(): " << vec.at(2) << endl;
     cout << "Element at index 2 using []: " << vec[2] << endl;
-
+    //7. Capactiy of vector "every time when vecor is filled and when we use push_back function and vector if in case is full then the vector double its size example element in vector 3 with capacity 4, first capacity 0 then 1 then 2 then 4 then 8 and so on"
+    cout<<"Capacity of vector="<<vec.capacity()<<endl;
+    cout<<"total elements in vector="<<vec.size()<<endl;
+    for(int value:vec){
+      cout<<value<<" ";
+    }
     return 0;
 }
