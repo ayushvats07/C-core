@@ -1,1 +1,1 @@
-vec.push_back(75);
+s3.getInfo();
